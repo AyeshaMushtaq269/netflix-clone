@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+      font-family: 'segoe UI', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/image/bg.jpg);
+    background-repeat:no-repeat;
+    background-size: max(1200px,100vw);
+    background-position: center center;
+    object-fit: cover;
+    min-height: 95vh;
+    position: relative;
+    border-bottom: 4px solid rgb(150, 18, 18);
+    box-shadow: inset 0px -12px 12px -12px rgba(41, 26, 94, 0.9), 
+                0px 8px 15px rgba(9, 88, 161, 0.7);
+
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    opacity:0.64;
+    position: absolute;
+    top:0;
+background-color: black;
+}
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    height: 52px;
+    position: relative; 
+    z-index: 10;
+    height: 85px;
+}
+.btn{
+    padding:3px 8px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    /* background-color: rgb(216, 26, 26);
+    border-radius: 5px;
+    padding:8px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 14px; */
+
+
+}
+.btn-mm{
+    background-color: rgb(230, 27, 27);
+    border-radius: 5px;
+    padding:8px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    
+}
+.btn-sm{ background-color:rgb(223, 30, 30);
+     color:rgb(255, 255, 255);
+     font-size: 24px;
+     padding:10px 35px;
+     border-radius: 5px;
+     border: none;
+      
+}
+.main input{
+
+    font-size: 16px;
+     padding:20px 104px 8px 14px;
+     border-radius: 5px;
+     color:rgb(255, 255, 255);
+     font-weight: 600;
+     border:1px solid rgb(141, 140, 140);
+     background-color:rgba(23,23,23,0.8);
+    
+}
+
+.hero{
+    font-family: 'segoe UI', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+    margin-top: 99px;
+    /* justify-content: center; */
+    align-items: center;
+    color:rgb(255, 255, 255);
+    height:100%;
+    position: relative;
+   gap:8px;
+    padding:0 30px;
+    text-align:center;
+   
+
+}
+.hero> :first-child{
+    text-align:center;
+    font-weight: 700;
+    font-size: 56px;
+     /* line-height: 70px; */
+   
+
+}
+.hero> :nth-child(2){
+    text-align:center;
+    font-weight: 700;
+    font-size: 56px;
+     /* line-height: 70px; */
+  
+
+
+}
+.hero> :nth-child(3){
+    text-align:center;
+    font-weight: 500;
+    font-size: 20px;
+     line-height: 70px;
+   
+}
+.hero> :nth-child(4){
+    text-align:center;
+    font-weight: 400;
+    font-size: 16px;
+     line-height: 24px;
+   
+}
+.hero-btn{
+        display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   
+}
+.first{
+    background-color: black;
+    color:white;
+    width: 100%;
+    min-height: 400px;
+    padding: 50px 0px;
+    padding-bottom: 0px;
+
+}
+.trending{
+    max-width: 80vw;         
+    margin: 0 auto;
+}
+.allcard{
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    overflow-x: auto;
+    gap: 20px;
+    
+}
+.allcard::-webkit-scrollbar {
+    display: none; 
+}
+.first img{
+    border-radius: 20px;
+    object-fit: cover;
+}
+.card-number{
+    position: sticky;
+    top:236px;
+    right:80px;
+    font-weight: 800;
+    color:black;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.7);
+    margin-right: -25px;      
+    z-index: 2;                  
+    user-select: none;
+    line-height: 0.8;
+    font-size: 110px;
+}
+.firstjoin{
+   background-color: black;
+    color:white;
+    width: 100%;
+    min-height: 400px;
+    padding: 50px 0;
+}
+.reasons{
+max-width: 80vw;         
+    margin: 0 auto;
+}
+.allsec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    gap:5px;
+    max-width: 90vw; 
+     margin: 0 auto;
+
+
+}
+.sec{
+    margin:12px;
+    min-height:250px;
+    padding:34px 10px;
+   
+    /* width: 204px; */
+    border-radius: 16px;
+     background: linear-gradient(135deg, #192231 0%, #171221 100%);
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     
+     
+}
+.question{
+    background-color: black;
+    color:white;
+ max-width: 80vw;
+    margin: auto;
+    padding: 70px 0;
+   
+}
+.question h2{
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.container{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+.container button{
+  max-width: 80vw;
+  background-color: #666e7e;
+  
+  color:white;
+
+}
+.ques{
+    width: 100%;
+    background-color: #2d2d2d; 
+    color: white;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+    
+
+}
+.ques:hover {
+    background-color: #414141;
+}
+.icon {
+    font-size: 42px;
+    font-weight: 500;
+}
+.answer{
+    background-color:#2d2d2d;
+    padding: 24px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+.footer {
+    background-color: black;
+    color: #d4d1d1; 
+    padding: 50px 0;
+    width: 100%;
+}
+
+.contact {
+    max-width: 80vw; 
+    margin: 0 auto;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.footer-top a {
+    color: #d8d5d5;
+    text-decoration: underline;
+}
+
+
+.footerlinks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Equal width ke 4 columns */
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    list-style: none; /* Bullet points hatane ke liye */
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column li a {
+    color: #737373;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+/* Hover karne par text light grey ho jata hai */
+.footer-column li a:hover, .footer-top a:hover {
+    color: #fff;
+}
+
+/* Language Button Styling */
+.lang-btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #737373;
+    color: white;
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.lang-btn .arrow {
+    font-size: 10px;
+}
+
+.footer-country {
+    font-size: 14px;
+    color: #737373;
+}
+.footer {
+    background-color: black;
+    color: #737373; 
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-wrapper {
+    max-width: 80vw; 
+    margin: 0 auto;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.footer-top a {
+    color: #737373;
+    text-decoration: underline;
+}
+
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column li a {
+    color: #737373;
+    text-decoration: underline;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+
+.footer-column li a:hover, .footer-top a:hover {
+    color: #fff;
+}
+
+.lang-btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #737373;
+    color: white;
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.lang-btn .arrow {
+    font-size: 10px;
+}
+
+.footer-country {
+    font-size: 14px;
+    color: #737373;
+}
+
+
+
+
